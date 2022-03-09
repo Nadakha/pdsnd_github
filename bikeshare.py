@@ -12,6 +12,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     
+    print('Hello! Let\'s explore some US bikeshare data!')
     print ("Here you will input city to explore date from the available cities ,from the following :-")
     for city in Cities :
         print ("-",city , end = " \n")
