@@ -1,3 +1,4 @@
+# packages needed for the prgram to run.
 import time
 import pandas as pd
 import numpy as np
@@ -5,6 +6,7 @@ Cities = ['chicago' , 'new york city', 'washington']
 Months = ['january' , 'february', 'march' , 'april' , 'may' , 'june' , "all" ]
 Days = ['monday' , 'tuesday', 'wednesday' , 'thursday' , 'friday' , 'saturday' , 'sunday', "all"]
 
+# data source to access from later 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
