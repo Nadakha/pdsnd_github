@@ -20,6 +20,8 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """     
+    
+    print('Hello! Let\'s explore some US bikeshare data!')
     print ("Here you will input city to explore date from the available cities ,from the following :-")
     for city in Cities :
         print ("-",city , end = " \n")
